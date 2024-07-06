@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - CharacterGPT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+        }
+
+        .banner {
+            background-color: #007bff;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .banner a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: url('path/to/your/background-image.jpg') no-repeat center center;
+            background-size: cover;
+            color: 0056b3;
+            padding: 100px 20px;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+
+        .hero button {
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1em;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .hero button:hover {
+            background-color: #003f7f;
+        }
+
+        .content {
+            padding: 40px 20px;
+        }
+
+        .content .section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 800px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .content .section .text {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .content .section .demo {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <div class="logo">CharacterGPT</div>
+        <div>
+            <a href="/">Home</a>
+            <a href="/chatbot">Chatbot</a>
+        </div>
+    </div>
+    <div class="hero">
+        <h1>Welcome to CharacterGPT</h1>
+        <p>Communicate with our advanced AI chatbot using different voices for a personalized experience.</p>
+        <button onclick="location.href='/chatbot'">Get Started</button>
+    </div>
+    <div class="content">
+        <div class="section">
+            <div class="text">
+                <h2>About CharacterGPT</h2>
+                <p>CharacterGPT is an advanced chatbot that allows you to communicate with AI using different voices.
+                    Choose from multiple voice options to enhance your interaction experience. Whether you need
+                    assistance, want to have a casual conversation, or seek information, CharacterGPT is here to help
+                    you.</p>
+                <p>Simply type your message, choose a voice, and our AI chatbot will respond with text and audio. You
+                    can change the voice for each interaction, making your experience unique every time.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        &copy; 2024 CharacterGPT. All rights reserved.
+    </div>
+</body>
+
+</html>
